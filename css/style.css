@@ -1,0 +1,731 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+/* .jejugothic { 
+ font-family: 'Jeju Gothic', sans-serif;
+} */
+
+@font-face {
+    font-family: 'Recipekorea';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'YiSunShinDotumM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/YiSunShinDotumM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Youth';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff2') format('woff2'),
+        url('//cdn.jsdelivr.net/korean-webfonts/1/orgs/othrs/kywa/Youth/Youth.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'HCRDotum';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.0/HCRDotum.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.youth * {
+    font-family: 'Youth', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'BMEULJIRO';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BMEULJIRO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'HANBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/HANBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'TmoneyRoundWindExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/TmoneyRoundWindExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    border: 0;
+    vertical-align: top;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+
+/* header */
+header {
+    width: 100%;
+    height: 110px;
+    overflow: hidden;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+}
+
+header .logo h1 {}
+
+header .logo h1 a {}
+
+header .logo h1 a img {}
+
+header .login {
+    width: 215px;
+    float: right;
+}
+
+header .login:hover {
+    opacity: 0.6;
+}
+
+header .login img {
+    padding-top: 26px;
+    padding-left: 35px;
+    float: left;
+}
+
+
+
+
+header .login p {
+    float: right;
+    padding-top: 45px;
+    font-family: 'Jeju Gothic', sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+
+/* slide */
+.slide {
+    padding-top: 23px;
+    overflow: hidden;
+}
+
+.slide .img {
+    width: 100%;
+    height: 500px;
+}
+
+nav {
+    padding-top: 80px;
+}
+
+nav ul.main_menu {
+    width: 100%;
+    height: 70px;
+    border-top: 3px solid #989898;
+    border-bottom: 3px solid #989898;
+}
+
+nav ul.main_menu li {
+    float: left;
+    font-size: 22px;
+    font-family: 'Jeju Gothic', sans-serif;
+    color: #707070;
+    line-height: 70px;
+    margin-left: 65px;
+    margin-right: 8px;
+    transition: all 0.6s;
+}
+
+nav ul.main_menu li:hover {
+    color: #ffc864;
+    font-size: 24px;
+    opacity: 0.7;
+    transform: scale(1.2);
+
+}
+
+nav ul.main_menu li a {}
+
+
+
+
+/* sub */
+.sub {
+    padding-top: 80px;
+}
+
+.sub .sub_left {
+    float: left;
+    width: 600px;
+    float: left;
+}
+
+.sub .sub_left ul.main_menu2 {
+    width: 600px;
+    height: 400px;
+    background: #fff5e3;
+}
+
+.sub .sub_left ul.main_menu2 li {
+    width: 200px;
+    height: 150px;
+    background: #ffc864;
+    float: left;
+    margin-top: 40px;
+    margin-left: 70px;
+    border-radius: 33px;
+    border: 7px solid #000000;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.sub .sub_left ul.main_menu2 li:hover {
+    opacity: 0.5;
+}
+
+.sub .sub_left ul.main_menu2 li:nth-child(3),
+.sub .sub_left ul.main_menu2 li:nth-child(4) {
+    margin-top: 21px;
+}
+
+.sub .sub_left ul.main_menu2 li a {}
+
+.sub .sub_left ul.main_menu2 li a img {
+    position: absolute;
+    top: 11px;
+    left: 40px;
+}
+
+.sub .sub_left ul.main_menu2 li a span {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Youth', sans-serif;
+    margin-top: 107px;
+}
+
+
+
+.sub .sub_right {
+    float: right;
+    width: 600px;
+    height: 400px;
+    background: #fff5e3;
+}
+
+.sub .sub_right h2 {
+    font-family: 'Youth', sans-serif;
+    font-size: 29px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 41px;
+}
+
+
+.sub .sub_right p {
+    background-image: url(../images/smile.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    height: 44px;
+    line-height: 44px;
+    padding-left: 108px;
+    padding-bottom: 25px;
+    font-size: 24px;
+    font-family: 'Youth', sans-serif;
+}
+
+
+.sub_bg_wrap {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 100px;
+    position: relative;
+
+}
+
+.sub_bg_wrap img {}
+
+.sub_bg_wrap .text {}
+
+.sub_bg_wrap .text ul.container1 {}
+
+.sub_bg_wrap .text ul.container1 {
+    position: absolute;
+    top: -200px;
+    left: 80px;
+    width: 100%;
+}
+
+.sub_bg_wrap .text ul.container1 li {
+    float: left;
+    width: 200px;
+    height: 170px;
+    border: 5px solid #000;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 9999px;
+    margin-right: 80px;
+    transition: all 0.6s;
+}
+
+.sub_bg_wrap .text ul.container1 li:hover {
+    transform: scale(1.2);
+}
+
+.sub_bg_wrap .text ul.container1 li:last-child {
+    margin-right: 0px;
+}
+
+.sub_bg_wrap .text ul.container1 li a {
+    display: block;
+}
+
+.sub_bg_wrap .text ul.container1 li a span {
+    display: block;
+    text-align: center;
+    margin-top: -115px;
+    font-size: 25px;
+    font-family: 'BMEULJIRO';
+}
+
+.sub_bg_wrap .text ul.container1 li a img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 61px;
+}
+
+
+
+
+.coupon {
+    padding-top: 100px;
+}
+
+
+.coupon a img:first-child {
+    position: relative;
+}
+
+.coupon a img:last-child {
+    position: absolute;
+    top: 285px;
+    left: 265px;
+    animation: coupon123 3s linear infinite;
+}
+
+
+@keyframes coupon123 {
+    0% {
+        transform: translateX(0) translateY(-20px);
+    }
+
+    50% {
+        transform: translateX(0) translateY(0);
+    }
+
+    100% {
+        transform: translateX(0) translateY(-20px);
+    }
+}
+
+.coupon a img:last-child:hover {
+    opacity: 0.6;
+}
+
+.sub_menu3 {
+    margin-top: 100px;
+    position: relative;
+}
+
+.sub_menu3 img {}
+
+.sub_menu3 .sub_menu33 {
+    position: absolute;
+    top: 44px;
+    right: 44px;
+}
+
+.sub_menu3 .sub_menu33 ul {}
+
+.sub_menu3 .sub_menu33 ul li {
+    width: 500px;
+    height: 80px;
+    border: 7px solid #47B770;
+    box-sizing: border-box;
+    background: #fff;
+    margin-bottom: 36px;
+    transition: all 0.6s;
+}
+
+.sub_menu3 .sub_menu33 ul li:hover {
+    transform: scale(1.1);
+}
+
+.sub_menu3 .sub_menu33 ul li a {
+    display: block;
+}
+
+.sub_menu3 .sub_menu33 ul li a span {
+    display: block;
+    font-size: 24px;
+    padding-top: 26px;
+    padding-left: 35px;
+    font-family: 'Recipekorea';
+}
+
+.sub_menu3 .sub_menu33 ul li a img {
+    display: block;
+    margin-left: 392px;
+    margin-top: -37px;
+}
+
+
+
+
+
+.osi {}
+
+.osi h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Recipekorea';
+    padding-top: 130px;
+    padding-bottom: 70px;
+}
+
+.osi .osi_contents {
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.osi .osi_contents .osi_contents_left {
+    float: left;
+    position: absolute;
+    top: 10px;
+}
+
+.osi .osi_contents .osi_contents_left h2 {
+    position: absolute;
+    font-size: 25px;
+    top: 70px;
+    left: 70px;
+    font-family: 'Recipekorea';
+}
+
+
+.osi .osi_contents .osi_contents_left p {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 70px;
+    font-family: 'Youth', sans-serif;
+}
+
+.osi .osi_contents .osi_contents_left p:first-child {
+    color: lightgreen;
+}
+
+.osi .osi_contents .osi_contents_right {
+    float: right;
+}
+
+.osi .osi_contents .osi_contents_right img {}
+
+
+.osi .osi_contents img {
+    padding-top: 50px;
+}
+
+.osi .osi_contents .subway {
+    position: relative;
+    font-family: 'Youth', sans-serif;
+}
+
+.osi .osi_contents .subway img {}
+
+.osi .osi_contents .subway h2 {
+    font-size: 20px;
+    color: dodgerblue;
+    position: absolute;
+    left: 75px;
+    top: 52px;
+    font-family: 'Youth';
+}
+
+.osi .osi_contents .subway p {
+    font-size: 17px;
+    color: #000000;
+    position: absolute;
+    left: 75px;
+    top: 85px;
+    font-family: 'Youth';
+}
+
+
+.osi .osi_contents .bus {
+    position: relative;
+    font-family: 'Youth', sans-serif;
+}
+
+.osi .osi_contents .bus img {}
+
+.osi .osi_contents .bus h2 {
+    font-size: 20px;
+    color: dodgerblue;
+    position: absolute;
+    left: 75px;
+    top: 52px;
+    font-family: 'Youth';
+}
+
+.osi .osi_contents .bus .bus1 {
+    margin-top: -3px;
+}
+
+.osi .osi_contents .bus .bus1 p {
+    padding-bottom: 25px;
+    font-size: 17px;
+    padding-left: 75px;
+    font-family: 'Youth';
+}
+
+.osi .osi_contents .bus .bus1 p:nth-child(1) {
+    color: limegreen;
+}
+
+.osi .osi_contents .bus .bus1 p:nth-child(2) {
+    color: dodgerblue;
+}
+
+.osi .osi_contents .bus .bus1 p:nth-child(3) {
+    padding-bottom: 35px;
+}
+
+.osi .osi_contents .bus .bus2 {
+    position: relative;
+}
+
+.osi .osi_contents .bus .bus2 ul.table1 {
+    position: absolute;
+    left: 210px;
+    top: -179px;
+    font-size: 17px;
+    font-family: 'Youth';
+}
+
+.osi .osi_contents .bus .bus2 ul.table1 li {
+    float: left;
+    padding-right: 10px;
+}
+
+.osi .osi_contents .bus .bus2 ul.table2 {
+    position: absolute;
+    left: 210px;
+    top: -137px;
+    font-size: 17px;
+    font-family: 'Youth';
+}
+
+.osi .osi_contents .bus .bus2 ul.table2 li {
+    float: left;
+    padding-right: 10px;
+}
+
+.osi .osi_contents .bus .bus2 ul.table3 {
+    position: absolute;
+    left: 210px;
+    top: -95px;
+    font-size: 17px;
+    font-family: 'Youth';
+}
+
+.osi .osi_contents .bus .bus2 ul.table3 li {
+    float: left;
+    padding-right: 10px;
+}
+
+.osi .osi_contents .bus .bus2 ul.table4 {
+    position: absolute;
+    left: 210px;
+    top: -42px;
+    font-size: 17px;
+    font-family: 'Youth';
+}
+
+.osi .osi_contents .bus .bus2 ul.table4 li {
+    float: left;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+.p_nav {
+    width: 100%;
+    border-top: 3px solid #989898;
+    margin-top: 80px;
+}
+
+
+.p_nav .sub_menu4 {}
+
+.p_nav .sub_menu4 ul {}
+
+.p_nav .sub_menu4 ul li {
+    float: left;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: 'YiSunShinDotumM';
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.p_nav .sub_menu4 ul li:hover {
+    opacity: 0.7;
+}
+
+.p_nav .sub_menu4 ul li a {
+    display: block;
+}
+
+
+
+footer {
+    width: 100%;
+}
+
+footer .f_top {
+    width: 100%;
+    height: 200px;
+    background: #4b555a;
+    font-family: 'TmoneyRoundWindExtraBold';
+    font-size: 20px;
+    color: #fff;
+}
+
+footer .f_top .f_left {
+    float: left;
+    margin-left: 17px;
+}
+
+footer .f_top .f_left img {
+    margin-top: 71px;
+}
+
+footer .f_top .f_right {
+    float: right;
+    width: 854px;
+}
+
+
+footer .f_top .f_right ul {
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+footer .f_top .f_right ul li {
+    float: left;
+    padding: 0 16px;
+    margin-bottom: 16px;
+    border-right: 3px solid #fff;
+}
+
+footer .f_top .f_right ul li:nth-child(1),
+footer .f_top .f_right ul li:nth-child(3),
+footer .f_top .f_right ul li:nth-child(4),
+footer .f_top .f_right ul li:nth-child(5) {
+    border-right: 0;
+}
+
+
+
+
+footer .f_bottom {
+    width: 100%;
+    height: 300px;
+}
+
+footer .f_bottom .f_bottom_bg img {
+    width: 100%;
+}
+
+
+footer .f_bottom .container {
+    position: relative;
+}
+
+footer .f_bottom .first {
+    position: absolute;
+    top: -275px;
+    left: 482px;
+}
+
+footer .f_bottom .first p {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'HANBatang';
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+
+footer .f_bottom .second {
+    position: absolute;
+    left: 620px;
+    top: -275px;
+}
+
+footer .f_bottom .second p {
+    font-size: 20px;
+    color: #ecff3e;
+    text-align: right;
+    font-family: 'HANBatang';
+    font-weight: bold;
+    padding-bottom: 12px;
+}
